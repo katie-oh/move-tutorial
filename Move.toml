@@ -1,0 +1,9 @@
+[package]
+name = "tutorial2"
+version = "1.0.2"
+
+[addresses]
+overmind = "0x58329c32bd6265543d9b525f5756f244e885983073a84c072597765acf56c4d9"
+
+[dependencies]
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token-objects/", rev = "aptos-cli-v2.2.0" }
